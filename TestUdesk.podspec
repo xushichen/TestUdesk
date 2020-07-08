@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = 'Udesk SDK for iOS'
   s.homepage     = 'https://github.com/xushichen/TestUdesk'
   s.author       = {'xuchen ' => 'xuc@udesk.cn'}
-  s.source 	 = { :http => 'https://pro-cs-freq.kefutoutiao.com/doc/im/tid3055/UdeskSDK_1594177903300_4re48.zip' }
+  s.source     = {:git => 'https://github.com/xushichen/TestUdesk.git', :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
