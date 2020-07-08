@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.version      = '5.1.4'
   s.license      = 'MIT'
   s.summary      = 'Udesk SDK for iOS'
-  s.homepage     = 'https://github.com/udesk/UdeskSDK-iOS'
+  s.homepage     = 'https://github.com/xushichen/TestUdesk'
   s.author       = {'xuchen ' => 'xuc@udesk.cn'}
-  s.source       =  {:git => 'https://github.com/udesk/UdeskSDK-iOS.git', :tag => s.version.to_s }
+  s.source       =  {:git => 'https://github.com/xushichen/TestUdesk.git', :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
