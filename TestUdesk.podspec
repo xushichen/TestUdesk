@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.subspec 'SDK' do |ss|
     ss.frameworks = 'AVFoundation', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'MapKit','AssetsLibrary','ImageIO','Accelerate','MediaPlayer','Photos','CoreText'
     ss.source_files = 'UdeskSDK/SDK/*.{h}'
-    ss.vendored_libraries = 'UdeskSDK/SDK/libUdesk.a'
+    ss.vendored_libraries = 'UdeskSDK/SDK/libTestUdesk.a'
     ss.libraries    = 'z', 'xml2', 'resolv', 'sqlite3'
     ss.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC',
                        'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
