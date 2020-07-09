@@ -58,6 +58,7 @@
 		448CD8921C979EE40049DE3F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 448CD8911C979EE40049DE3F /* libxml2.tbd */; };
 		44B1A2E920F488B80031913A /* UdeskCustomCustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1A2E820F488B70031913A /* UdeskCustomCustomerTableViewController.m */; };
 		44B1A2EC20F488C30031913A /* UdeskGoodsMessageTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B1A2EA20F488C20031913A /* UdeskGoodsMessageTestViewController.m */; };
+		44BC681C24B69B04008885DA /* libTestUdesk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BC681B24B69B04008885DA /* libTestUdesk.a */; };
 		44BC8BCD24A221040017A760 /* UdeskLocationResultDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8A0824A220FA0017A760 /* UdeskLocationResultDataSource.m */; };
 		44BC8BCE24A221040017A760 /* Udesk_HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8A0C24A220FA0017A760 /* Udesk_HCSStarRatingView.m */; };
 		44BC8BCF24A221040017A760 /* UdeskHPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8A0F24A220FA0017A760 /* UdeskHPTextViewInternal.m */; };
@@ -241,7 +242,6 @@
 		44BC8C8124A221050017A760 /* UdeskProblemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8BBD24A221030017A760 /* UdeskProblemModel.m */; };
 		44BC8C8224A221050017A760 /* UdeskFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8BC224A221030017A760 /* UdeskFAQViewController.m */; };
 		44BC8C8324A221050017A760 /* UdeskContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC8BC324A221030017A760 /* UdeskContentController.m */; };
-		44BC8C8424A221050017A760 /* libUdesk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BC8BCB24A221040017A760 /* libUdesk.a */; };
 		44C3A0611C93ADCE004BDB2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3A0601C93ADCE004BDB2B /* main.m */; };
 		44C3A0641C93ADCE004BDB2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C3A0631C93ADCE004BDB2B /* AppDelegate.m */; };
 		44C3A0771C93ADFF004BDB2B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C3A0761C93ADFF004BDB2B /* libsqlite3.tbd */; };
@@ -329,6 +329,7 @@
 		44B1A2E820F488B70031913A /* UdeskCustomCustomerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdeskCustomCustomerTableViewController.m; sourceTree = "<group>"; };
 		44B1A2EA20F488C20031913A /* UdeskGoodsMessageTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdeskGoodsMessageTestViewController.m; sourceTree = "<group>"; };
 		44B1A2EB20F488C20031913A /* UdeskGoodsMessageTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskGoodsMessageTestViewController.h; sourceTree = "<group>"; };
+		44BC681B24B69B04008885DA /* libTestUdesk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestUdesk.a; path = "../../../../Downloads/Chrome/TestUdesk-5.1.4/UdeskSDK/SDK/libTestUdesk.a"; sourceTree = "<group>"; };
 		44BC8A0824A220FA0017A760 /* UdeskLocationResultDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdeskLocationResultDataSource.m; sourceTree = "<group>"; };
 		44BC8A0924A220FA0017A760 /* UdeskLocationResultDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskLocationResultDataSource.h; sourceTree = "<group>"; };
 		44BC8A0C24A220FA0017A760 /* Udesk_HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Udesk_HCSStarRatingView.m; sourceTree = "<group>"; };
@@ -704,7 +705,6 @@
 		44BC8BC824A221030017A760 /* UdeskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskManager.h; sourceTree = "<group>"; };
 		44BC8BC924A221030017A760 /* UdeskOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskOrganization.h; sourceTree = "<group>"; };
 		44BC8BCA24A221030017A760 /* UdeskCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskCustomer.h; sourceTree = "<group>"; };
-		44BC8BCB24A221040017A760 /* libUdesk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUdesk.a; sourceTree = "<group>"; };
 		44BC8BCC24A221040017A760 /* UdeskSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdeskSetting.h; sourceTree = "<group>"; };
 		44C3A05C1C93ADCE004BDB2B /* UdeskSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdeskSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C3A0601C93ADCE004BDB2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -740,11 +740,11 @@
 				4479FC221E8B8DA2000D8DBF /* CoreGraphics.framework in Frameworks */,
 				4479FC201E8B8D97000D8DBF /* SystemConfiguration.framework in Frameworks */,
 				4479FC1E1E8B8D91000D8DBF /* CoreTelephony.framework in Frameworks */,
-				44BC8C8424A221050017A760 /* libUdesk.a in Frameworks */,
 				4479FC1C1E8B8D8B000D8DBF /* CoreFoundation.framework in Frameworks */,
 				4479FC1A1E8B8D84000D8DBF /* CFNetwork.framework in Frameworks */,
 				44C3A07D1C93AE11004BDB2B /* libz.tbd in Frameworks */,
 				448CD8921C979EE40049DE3F /* libxml2.tbd in Frameworks */,
+				44BC681C24B69B04008885DA /* libTestUdesk.a in Frameworks */,
 				44C3A0791C93AE05004BDB2B /* libresolv.tbd in Frameworks */,
 				44C3A0771C93ADFF004BDB2B /* libsqlite3.tbd in Frameworks */,
 				AAC74908B63DD1E4156730FD /* Pods_UdeskSDKExample.framework in Frameworks */,
@@ -1930,13 +1930,13 @@
 		44BC8BC424A221030017A760 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				44BC681B24B69B04008885DA /* libTestUdesk.a */,
 				44BC8BC524A221030017A760 /* UdeskTrack.h */,
 				44BC8BC624A221030017A760 /* UdeskAgent.h */,
 				44BC8BC724A221030017A760 /* UdeskMessage.h */,
 				44BC8BC824A221030017A760 /* UdeskManager.h */,
 				44BC8BC924A221030017A760 /* UdeskOrganization.h */,
 				44BC8BCA24A221030017A760 /* UdeskCustomer.h */,
-				44BC8BCB24A221040017A760 /* libUdesk.a */,
 				44BC8BCC24A221040017A760 /* UdeskSetting.h */,
 			);
 			path = SDK;
