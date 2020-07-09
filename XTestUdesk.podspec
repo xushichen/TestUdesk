@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = 'XTestUdesk.podspec'
-  s.version      = '5.1.4'
+  s.name         = 'XTestUdesk'
+  s.version      = '0.0.1'
   s.license      = 'MIT'
   s.summary      = 'Udesk SDK for iOS'
   s.homepage     = 'https://github.com/xushichen/TestUdesk'
@@ -19,16 +19,16 @@ Pod::Spec.new do |s|
 
   s.subspec 'SDK' do |ss|
     ss.frameworks = 'AVFoundation', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'MapKit','AssetsLibrary','ImageIO','Accelerate','MediaPlayer','Photos','CoreText'
-    ss.source_files = 'UdeskSDK/SDK/*.{h}'
-    ss.vendored_libraries = 'UdeskSDK/SDK/libXTestUdesk.a'
+    ss.source_files = 'XTestUdesk/SDK/*.{h}'
+    ss.vendored_libraries = 'XTestUdesk/SDK/libXTestUdesk.a'
     ss.libraries    = 'z', 'xml2', 'resolv', 'sqlite3'
     ss.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC',
                        'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
   end
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'UdeskSDK/UDChatMessage/**/*.{h,m}'
-    ss.resource     = 'UdeskSDK/UDChatMessage/UDResource/UdeskBundle.bundle'
-    ss.dependency 'UdeskSDK/SDK'
+    ss.source_files = 'XTestUdesk/UDChatMessage/**/*.{h,m}'
+    ss.resource     = 'XTestUdesk/UDChatMessage/UDResource/UdeskBundle.bundle'
+    ss.dependency 'XTestUdesk/SDK'
   end
 
 end
